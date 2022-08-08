@@ -1,13 +1,39 @@
 {
-  "pages": [
+   "pages": [
     "pages/index/index",
+    "pages/search/index",
+    "pages/lib/index",
     "pages/login/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "梅花音乐",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
+  "tabBar": {
+    "color": "#7a869a",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "list": [{
+      "iconPath" : "./images/home.png",
+      "selectedIconPath": "./images/home-active.png",
+      "pagePath" : "pages/index/index",
+      "text" : "首页"
+    },
+    {
+      "iconPath" : "./images/search.png",
+      "selectedIconPath": "./images/search-active.png",
+      "pagePath" : "pages/search/index",
+      "text" : "搜索"
+    },
+    {
+      "iconPath" : "./images/lib.png",
+      "selectedIconPath": "./images/lib-active.png",
+      "pagePath" : "pages/lib/index",
+      "text" : "音乐库"
+    }   
+  ]},
   "sitemapLocation": "sitemap.json"
 }
