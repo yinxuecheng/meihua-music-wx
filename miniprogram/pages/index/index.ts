@@ -15,6 +15,26 @@ Page({
       {
         image: '../../images/recommend-playlist.png'
       }
+    ],
+    musicianBannerList: [
+      {
+        id: 111,
+        name: '大美女',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 112,
+        name: '大美女',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 113,
+        name: '大美女',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
     ]
   },
 

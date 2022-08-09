@@ -12,7 +12,6 @@
       </view>
     </view>
   </view>
-
   <scroll-view class="category-banner-list" scroll-x>
     <view style="{{ 'width: ' + (categoryBannerList.length*320 +40 ) + 'rpx'}}">
       <view class="category-box" wx:for="{{categoryBannerList}}"
@@ -21,4 +20,10 @@
       </view>
     </view>
   </scroll-view>
+  <view class="trending-musician">
+    <musician-banner 
+    title="推荐音乐人" 
+    list="{{musicianBannerList}}">
+    </musician-banner>
+  </view>
 </view>
