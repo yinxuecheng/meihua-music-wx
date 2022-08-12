@@ -35,6 +35,26 @@ Page({
         category: '流行音乐',
         photo: '../../images/musician-photo.png'
       },
+    ],
+    playList: [
+      {
+        id: 111,
+        title: '80后',
+        description: '流行音乐',
+        image: '../../images/album.png'
+      },
+      {
+        id: 112,
+        title: '90后',
+        description: '流行音乐',
+        image: '../../images/album.png'
+      },
+      {
+        id: 113,
+        title: '00后',
+        description: '流行音乐',
+        image: '../../images/album.png'
+      },
     ]
   },
 

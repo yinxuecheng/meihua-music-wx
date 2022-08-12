@@ -1,23 +1,20 @@
-// components/musician-banner/index.ts
+// components/album-card/index.ts
 Component({
-
   /**
-   * 组件样式隔离
+   * 开启样式隔离
    */
   options: {
     styleIsolation: 'isolated'
   },
-    /**
+  /**
    * 组件的属性列表
    */
   properties: {
-    title: {
-      type: String,
-      value: ''
-    },
-    list: {
-      type: Array,
-      value: []
+    item : {
+      type: Object,
+      value: () => {
+        return null
+      }
     }
   },
 
@@ -32,8 +29,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onClick(e: any) {
-      console.log(e);
-    }
+
   }
 })

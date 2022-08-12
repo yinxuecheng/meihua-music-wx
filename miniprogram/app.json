@@ -3,8 +3,7 @@
     "pages/index/index",
     "pages/search/index",
     "pages/lib/index",
-    "pages/login/index",
-    "components/musician-banner/index"
+    "pages/login/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
